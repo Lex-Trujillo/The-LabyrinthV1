@@ -1,0 +1,210 @@
+*{
+    background-color: #4A5043;
+}
+
+#headerContainer{
+    display:flex;
+    justify-content: space-around;
+}
+
+#roomName{
+    color:#87BAAB;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#help{
+    border: 1px solid white;
+    color: white;
+}
+
+#uiContainer{
+    position:relative;
+    border: 5px solid black;
+    height: 100%;
+    width: 100% auto;
+    padding: 10px;
+    margin: 30px;
+}
+
+#statHeader{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* #statHeaderContainer{
+
+} */
+
+#health{
+    color: red;
+    font-size: 25px;
+}
+
+#sanity{
+    color: rgb(186, 20, 186);
+    font-size: 25px;
+}
+
+#observation{
+    color: yellow;
+    font-size: 25px;
+}
+
+#storyAndMapContainer{
+    display:flex;
+}
+/* #storyTextContainer{
+    
+} */
+
+#storyText{
+    
+    font-size: 19px;
+    color:#87BAAB;
+    text-align: left;
+    
+    min-height: 100%;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 2%;
+}
+
+#mapContainer{
+    border: 1px solid black;
+    width: 94%;
+    height: 100%;
+    min-width: 484px;
+    max-width: 484px;
+}
+
+#roomContainer{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 484px;
+    max-width: 484px;
+}
+
+.rooms{
+    border: 1px solid whitesmoke;
+    background-color: #584e5b;
+    height: 142px;
+    max-height: 142px;
+    width: 142px;
+    max-width: 142px;
+    margin: 2px;
+    left: 45%;
+    bottom: 45%
+    
+}
+
+.roomNumber{
+    background-color: #584e5b;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 45%;
+}
+
+#startRoom{
+    font-size: 28px;
+    /* border: 1px solid white; */
+    text-align: center;
+    margin-left: 35%;
+    margin-right:35%;
+    color:white;
+}
+
+#optionContainer{
+    margin: 1%;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.option{
+    border: 1px solid white;
+    color: white;
+}
+
+.option:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.option1choice{
+    display:none;
+}
+
+#option1:hover #displayOption1Container button{
+    display:block;
+    background-color: white;
+}
+
+.option2choice{
+    display:none;
+}
+
+#option2:hover #displayOption2Container button{
+    display:block;
+    background-color: white;
+}
+
+.option3choice{
+    display:none;
+}
+
+#option3:hover #displayOption3Container button{
+    display:block;
+    background-color:white
+}
+
+.option4choice{
+    display:none;
+}
+
+#option4:hover #displayOption4Container button{
+    display:block;
+    background-color:white;
+}
+
+.option5choice{
+    display:none;
+}
+
+#option5:hover #displayOption5Container button{
+    display:block;
+    background-color:white;
+}
+
+.option6choice{
+    display:none;
+}
+
+#option6:hover #displayOption6Container button{
+    display:block;
+    background-color:white;
+}
+
+.option7choice{
+    display:none;
+}
+
+#option7:hover #displayOption7Container button{
+    display:block;
+    background-color:white;
+}
+
+.option8choice{
+    display:none;
+}
+
+#option8:hover #displayOption8Container button{
+    display:block;
+    background-color:white;
+}
