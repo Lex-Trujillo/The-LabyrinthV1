@@ -1,4 +1,4 @@
-import * as health from './health.js';
+import * as health from './healthFuncs.js';
 
 health.setMaxHealth(100);
 health.changeMaxHealth(25);
