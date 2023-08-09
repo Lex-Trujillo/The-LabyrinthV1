@@ -1,5 +1,5 @@
 /*
-This file contains the main funciton/process for buidling the player character
+This file contains the main funciton/process for building the player character
     at the begining of the game. **Subject to change depending on how team lead
     wants this issue handled**
 Start date: 8/8/2023
@@ -8,31 +8,43 @@ Author(s): Noah Wishnia
 Version: 1.0.0
  */
 
-// **May not need this**
-//////////CLASS TO NUMBER//////////
-
-    const Athlete      = 1;
-    const Mobster      = 2;
-    const Professor    = 3;
-    const OfficeWorker = 4;
-    const Guitarist    = 5;
-    const EMT          = 6;
-    const BoyScout     = 7;
 //////////IMPORTS//////////
 import * as health from './../gameplayFuncs/healthFuncs.js';
+import * as characters from './characterObject.js';
 //////////VARIABLES//////////
 
 //////////MAIN FUNCTION//////////
 
 export function buildCharacterMain(className)
 {
-    let character = 
+    let playerOne;
+    switch(className)
     {
-        class: className,
-        Health: health.getCurrentHealth()
-    };
+        case 'Athlete':
+            playerOne = {...characters.Athlete};
+            break;
+        case 'Mobster':
+            playerOne = {...characters.Mobster};
+            break;
+        case 'Professor':
+            playerOne = {...characters.Professor}
+            break;
+        case 'Office Worker':
+            playerOne = {...characters.OfficeWorker}
+            break;
+        case 'Guitarist':
+            playerOne = {...characters.Guitarist}
+            break;
+        case 'EMT':
+            playerOne = {...characters.EMT}
+            break;
+        case 'Boy Scout':
+            playerOne = {...characters.BoyScout}
+            break;
+        default:        
+    }
 
-    return character;
+    return playerOne;
 }
 
-console.log(buildCharacterMain())
+console.log(buildCharacterMain('Boy Scout'))
