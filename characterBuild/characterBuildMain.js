@@ -3,7 +3,7 @@ This file contains the main funciton/process for building the player character
     at the begining of the game. **Subject to change depending on how team lead
     wants this issue handled**
 Start date: 8/8/2023
-Last edit:  8/8/2023
+Last edit:  8/9/2023
 Author(s): Noah Wishnia
 Version: 1.0.0
  */
@@ -11,10 +11,8 @@ Version: 1.0.0
 //////////IMPORTS//////////
 import * as health from './../gameplayFuncs/healthFuncs.js';
 import * as characters from './characterObject.js';
-//////////VARIABLES//////////
 
 //////////MAIN FUNCTION//////////
-
 export function buildCharacterMain(className)
 {
     let playerOne;
@@ -46,5 +44,3 @@ export function buildCharacterMain(className)
 
     return playerOne;
 }
-
-console.log(buildCharacterMain('Boy Scout'))
