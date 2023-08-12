@@ -3,7 +3,7 @@ This file contains the object frame work for buidling each character. This
      includes stats and special abilities. ** May include other abilities
      and items down the road?**
 Start date: 8/8/2023
-Last edit:  8/9/2023
+Last edit:  8/12/2023
 Author(s): Noah Wishnia
 Version: 1.0.0
  */
@@ -27,7 +27,12 @@ export const Athlete =
         mental:    60, //Mental Stability
         
         //Special perk
-        perk: "perk"
+        perk: "perk",
+
+        //Trait related 
+        traits: [],
+        traitCount: 0,
+        traitBalance: 0 //For checking pos/neg equality
     }
 
 //Mobster object filled with base stats
@@ -49,7 +54,12 @@ export const Mobster =
         mental:    45, //Mental Stability
         
         //Special perk
-        perk: "perk"
+        perk: "perk",
+
+        //Trait related 
+        traits: [],
+        traitCount: 0,
+        traitBalance: 0 //For checking pos/neg equality
     }
 
 //Professor object filled with base stats
@@ -71,7 +81,12 @@ export const Professor =
     mental:    85, //Mental Stability
     
     //Special perk
-    perk: "perk"
+    perk: "perk",
+
+    //Trait related 
+    traits: [],
+    traitCount: 0,
+    traitBalance: 0 //For checking pos/neg equality
 }
 
 //Office Worker object filled with base stats
@@ -93,7 +108,12 @@ export const OfficeWorker =
     mental:    45, //Mental Stability
     
     //Special perk
-    perk: "perk"
+    perk: "perk",
+
+    //Trait related 
+    traits: [],
+    traitCount: 0,
+    traitBalance: 0 //For checking pos/neg equality
 }
 
 //Guitarist object filled with base stats
@@ -115,7 +135,12 @@ export const Guitarist =
     mental:    45, //Mental Stability
     
     //Special perk
-    perk: "perk"
+    perk: "perk",
+
+    //Trait related 
+    traits: [],
+    traitCount: 0,
+    traitBalance: 0 //For checking pos/neg equality
 }
 
 //EMT object filled with base stats
@@ -137,7 +162,12 @@ export const EMT =
     mental:    50, //Mental Stability
     
     //Special perk
-    perk: "perk"
+    perk: "perk",
+
+    //Trait related 
+    traits: [],
+    traitCount: 0,
+    traitBalance: 0 //For checking pos/neg equality
 }
 
 //Boy Scout object filled with base stats
@@ -159,5 +189,10 @@ export const BoyScout =
     mental:    5, //Mental Stability
     
     //Special perk
-    perk: "perk"
+    perk: "perk",
+
+    //Trait related 
+    traits: [],
+    traitCount: 0,
+    traitBalance: 0 //For checking pos/neg equality
 }
