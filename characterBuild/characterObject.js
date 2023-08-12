@@ -3,7 +3,7 @@ This file contains the object frame work for buidling each character. This
      includes stats and special abilities. ** May include other abilities
      and items down the road?**
 Start date: 8/8/2023
-Last edit:  8/8/2023
+Last edit:  8/9/2023
 Author(s): Noah Wishnia
 Version: 1.0.0
  */
