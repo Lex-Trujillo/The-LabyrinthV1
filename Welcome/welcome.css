@@ -1,0 +1,24 @@
+*{
+    background-color: gray;
+}
+
+#welcome{
+    color:white;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+}
+
+#instructions{
+    color:white;
+    border-color: white;
+}
+
+#startGame{
+    color:white;
+    border-color:white
+}
